@@ -1,0 +1,105 @@
+/* <@charset"UTF-8";>*/
+body{
+     margin: 0;
+     padding: 0;
+     font-family:"MSP 明朝体",serif;
+     font-weight: bolder;
+     font-size:smaller;
+     background-color: rgb(250, 241, 229);
+}        
+h2  {color: rgb(33, 32, 32);
+     border-left-width: 29px;
+     border-left-style: ridge;
+     border-left-color: rgb(219, 178, 125);
+     padding-left: 10px;
+     margin-top: 40px;
+}
+#akagi_picture {border-width: 3px;
+     border-color:rgb(6, 50, 80);
+     width: 200px;    
+     border-radius: 130px;
+     margin-top: 1ch;
+     margin-bottom: 1ch;
+     margin-left: 25ch;
+     margin-right: 1ch;
+}
+           
+.sabo_father{color: rgb(153, 10, 43);
+             font-weight: 900;}
+.sabo_god{color: rgb(153, 10, 43);
+          font-weight: 900;}
+.pictures{background-color: rgb(18, 34, 64);
+          font-size: px;
+          display:flex;
+          justify-content: space-around;
+     }
+.pictures>p{width: 50%;
+}           
+.sabo_father{font-size: 18px;}
+.sabo_god{font-size: 18px;}
+.sabo li{color: rgb(18, 77, 3);
+         font-weight: 800;
+         font-size: larger;} 
+.landslide li{color: rgb(18, 77, 3);
+     font-weight: 800;
+     font-size: larger;}
+     .wrap {display: flex;
+       align-items: center;
+       height: 340px;
+       overflow: hidden;
+        }
+     .slideshow {
+          display: flex;
+          animation: loop-slide 30s infinite linear 1s both;
+        }
+        @keyframes loop-slide {
+          from {
+            transform: translateX(0);
+          }
+          to {
+            transform: translateX(-100%);
+          }
+     }
+     .slide-paused:hover .slideshow {
+          -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+        }
+      header{
+          background-color: #192802;
+          color: rgba(240, 237, 246, 0.969);
+          width: 100%;
+          height: 140px;
+          padding-left: 30px;
+          padding-right: 30px;
+          box-sizing:border-box;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          position: fixed;
+          top: 0;
+          right: 0;
+          left: 0;
+      }
+      h1 a{
+          color: rgb(243, 235, 235);
+          font-size: 30px;
+          text-decoration: none;
+      }
+      .container {
+          padding-bottom: 60px;
+          box-sizing: border-box;
+    }
+    #footer {
+          /* position: fixed; */
+          bottom: 0;
+          background-color: #192802;
+          color: rgba(240, 237, 246, 0.969);
+          width: 100%;
+          height: 35px;
+          padding-left: 30px;
+          box-sizing:border-box;
+          font-size: x-small;
+    }
+    
+     
+     
